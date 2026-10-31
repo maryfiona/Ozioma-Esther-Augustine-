@@ -29,7 +29,7 @@ export default function Login() {
     // Small loading effect
     await new Promise((resolve) => setTimeout(resolve, 1800));
 
-    if (email === "nora@gmail.com" && password === "OziomaEsther") {
+    if (email === "estheraustin360@gmail.com" && password === "OziomaEsther") {
       localStorage.setItem("admin", "true");
 
       setDialog({
